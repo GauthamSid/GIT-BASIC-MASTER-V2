@@ -1,0 +1,9 @@
+1. git init --> To initialoze the local reepository/folder Ex: D:/JacaScript Training/Training/Git-Basic-Master
+2. git remote add origin <repository URL like https://github.com/GauthamSid/git-basic-master.git> --> To connect local repository to remote reepository
+3. git status --> To check the status of the files to see if the are created / modified
+4. git diff --> To see the changes made to the files
+5. git add <filename> --> To add file to local git repository
+6. git add . --> To add multiple files to local git repositor
+7. git commit -am "added new files to repository" --> To commit all the changes made to files
+8. git push origin master --> To push the changes to remote reepository in github
+9. git pull origin master --> To pull the changes to remote reepository in github
