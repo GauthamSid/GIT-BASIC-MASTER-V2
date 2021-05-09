@@ -2,6 +2,15 @@ function fetchUserData(){
     fetch("https://jsonplaceholder.typicode.com/users")
     .then(response => response.json())
     .then(data => bindData(data))
+
+    let a = 1234
+console.log(`Hello ${a}`)
+
+let colors = ['red','green','blue']
+for (color of colors) {
+    console.log(color)
+}
+
 }
 
 
